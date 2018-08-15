@@ -6,7 +6,7 @@
   "private": true,
   "description": "EOS Blox IOS Starter Kit",
   "license": "MIT",
-  "repository": "EOSBlox/IOS-starterKit",
+  "repository": "EOSBlox/ios-starter-kit",
   "scripts": {
     "lint": "polymer lint",
     "emulate": "cordova emulate ios",

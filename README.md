@@ -1,4 +1,4 @@
-# EOS Blox IOS Starter Kit
+# IOS Starter Kit
 
 This template is a starting point for building EOS Blox apps for IOS.
 
