@@ -32,3 +32,5 @@ Check you have all prerequisiites for [IOS](https://cordova.apache.org/docs/en/8
 ### Serve in iOS Emulator
 
     npm run emulate
+
+Detailed instructions for [deploying to a device and signing an app](https://cordova.apache.org/docs/en/8.x/guide/platforms/ios/index.html#deploying-to-device)
