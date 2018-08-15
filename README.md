@@ -1,4 +1,4 @@
-# IOS Starter Kit
+# iOS Starter Kit
 
 This template is a starting point for building EOS Blox apps for IOS.
 
@@ -29,6 +29,6 @@ Check you have all prerequisiites for [IOS](https://cordova.apache.org/docs/en/8
 
     npm run serve
 
-### Serve in Emulator
+### Serve in iOS Emulator
 
     npm run emulate
