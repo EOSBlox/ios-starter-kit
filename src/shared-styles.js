@@ -27,6 +27,9 @@ $_documentContainer.innerHTML = `<dom-module id="shared-styles">
         font-size: 26px;
         margin:0;
       }
+      a {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
     </style>
   </template>
 </dom-module>`;

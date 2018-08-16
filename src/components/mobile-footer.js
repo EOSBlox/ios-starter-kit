@@ -41,6 +41,8 @@ static get template() {
             margin: 0 auto;
             background: no-repeat 50% 50%;
             background-size: cover;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            
         }
         a.home {
             background-image: url(../../images/mobile-home.svg);
