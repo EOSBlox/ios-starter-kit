@@ -75,7 +75,7 @@ static get template() {
                 <a href="/activity" class="activity"></a>
             </li>
             <li>
-                <a href="/menu" class="menu"></a>
+                <a href="/settings/menu" class="menu"></a>
             </li>
         </ul>
         

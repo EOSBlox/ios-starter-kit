@@ -21,7 +21,7 @@ class MyApp extends PolymerElement {
         <my-explore name="explore"></my-explore>
         <my-cart name="cart"></my-cart>
         <my-activity name="activity"></my-activity>
-        <my-menu name="menu"></my-menu>
+        <my-settings name="settings"></my-settings>
         <my-view404 name="view404"></my-view404>
       </iron-pages>
       <mobile-footer></mobile-footer>
@@ -50,7 +50,7 @@ class MyApp extends PolymerElement {
   _routePageChanged(page) {
     if (!page) {
       this.page = 'home';
-    } else if (['home', 'explore', 'cart', 'activity', 'menu'].indexOf(page) !== -1) {
+    } else if (['home', 'explore', 'cart', 'activity', 'settings'].indexOf(page) !== -1) {
       this.page = page;
     } else {
       this.page = 'view404';
@@ -71,8 +71,8 @@ class MyApp extends PolymerElement {
       case 'activity':
         import('./my-activity.js');
         break;
-      case 'menu':
-        import('./my-menu.js');
+      case 'settings':
+        import('./my-settings.js');
         break;
       case 'view404':
         import('./my-view404.js');

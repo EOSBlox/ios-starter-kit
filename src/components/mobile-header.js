@@ -15,7 +15,8 @@ static get template() {
             text-align: center;
             color: var(--header-color);
             padding: 14px 0 14px 0;
-            size: 17;
+            font-size: 22px;
+            font-weight: 500;
             line-height: 17px;
             background-color: var(--header-bg-color);
             overflow: hidden;
