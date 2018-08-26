@@ -14,6 +14,14 @@ static get template() {
         <my-login name="login"></my-login>
         <my-join name="join"></my-join>
         <my-delete-account name="delete-account"></my-delete-account>
+        <my-menu name="menu"></my-menu>
+        <my-profile name="profile"></my-profile>
+        <my-switch name="switch"></my-switch>
+        <my-password name="password"></my-password>
+        <my-logout name="logout"></my-logout>
+        <my-delete-profile name="delete-profile"></my-delete-profile>
+        <my-backup name="backup"></my-backup>
+        <my-add name="add"></my-add>
     </iron-pages>
 
     `;
@@ -40,7 +48,7 @@ _routePageChanged(subpage) {
     let page = subpage.substr(1)
     if (!page) {
         this.page = 'menu';
-    } else if (['login', 'join', 'delete-account'].indexOf(page) !== -1) {
+    } else if (['login', 'join', 'delete-account', 'menu', 'profile', 'switch', 'password', 'logout', 'delete-profile', 'backup','add'].indexOf(page) !== -1) {
         this.page = page;
     } else {
         this.page = 'view404';
@@ -49,6 +57,30 @@ _routePageChanged(subpage) {
 
 _pageChanged(page) {
     switch (page) {
+    case 'add':
+        import('./settings/my-add.js');
+        break;
+    case 'backup':
+        import('./settings/my-backup.js');
+        break;
+    case 'delete-profile':
+        import('./settings/my-delete-profile.js');
+        break;
+    case 'logout':
+        import('./settings/my-logout.js');
+        break;
+    case 'password':
+        import('./settings/my-password.js');
+        break;
+    case 'switch':
+        import('./settings/my-switch.js');
+        break;
+    case 'profile':
+        import('./settings/my-profile.js');
+        break;
+    case 'menu':
+        import('./settings/my-menu.js');
+        break;
     case 'delete-account':
         import('./settings/my-delete-account.js');
         break;
