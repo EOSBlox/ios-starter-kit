@@ -17,9 +17,13 @@ static get template() {
             margin-top: 40px;
             display: block;
         }
+        h1 {
+            font-size: 16px;
+        }
     </style>
 
     <div class="container">
+        <h1>Backup</h1>
         <blox-settings screen="backup"></blox-settings>
     </div>
 

@@ -11,9 +11,13 @@ static get template() {
         padding: 0;
         margin-top: 75px;
         }
+        h1 {
+            font-size: 16px;
+        }
     </style>
 
     <div class="container">
+        <h1>Logout</h1>
         <blox-settings screen="logout"></blox-settings>
     </div>
 

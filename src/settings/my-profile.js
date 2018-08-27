@@ -17,9 +17,13 @@ static get template() {
             margin-top: 40px;
             display: block;
         }
+        h1 {
+            font-size: 16px;
+        }
     </style>
 
     <div class="container">
+        <h1>Profile</h1>
         <blox-settings screen="edit"></blox-settings>
     </div>
     <small>Dont need this profile? <a href="/settings/delete-profile">Delete Profile</a></small>
